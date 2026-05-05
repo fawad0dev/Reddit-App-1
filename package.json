@@ -1,0 +1,17 @@
+{
+  "name": "mod-strike-system",
+  "version": "0.0.1",
+  "description": "A Devvit moderation app that tracks user strikes and automatically escalates enforcement actions.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "upload": "devvit upload",
+    "playtest": "devvit playtest"
+  },
+  "dependencies": {
+    "@devvit/public-api": "0.12.22"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
